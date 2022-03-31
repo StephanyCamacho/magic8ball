@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome to the Magic 8 Ball</title>
     <link rel="stylesheet" src="style.css" type="text/css">
 </head>
 <body>
-    <script src="script.js" type="text/javascript" ></script>
+    <div>
+        <h1>🎱 Magic 8-Ball 🎱</h1>
+        <br>
+        <label>Ask me anything!</label>
+        <br>
+        <input type="text" id="questionBox" placeholder="Type here..." value=''>
+        <br>
+        <br>
+        <button type="button" onclick='answers()'>See your fortune</button>
+      </div>
+
+      <div id="answersDiv">
+          <img id="8ballImages" src="images/magic8ball_start.png"/>
+      </div>
 </body>
+<script src="script.js" type="text/javascript" ></script>
 </html>
