@@ -1,16 +1,21 @@
+
 let answers = () => {
-    responses = [
-        'images/magic8ball_1.png',
-        'images/magic8ball_2.png',
-        'images/magic8ball_3.png',
-        'images/magic8ball_4.png',
-        'images/magic8ball_5.png',
-        'images/magic8ball_6.png',
-        'images/magic8ball_7.png',
-        'images/magic8ball_8.png',
-        'images/magic8ball_9.png',
+    
+    imageResponses = [
+        'magic8ball_1.png',
+        'magic8ball_2.png',
+        'magic8ball_3.png',
+        'magic8ball_4.png',
+        'magic8ball_5.png',
+        'magic8ball_6.png',
+        'magic8ball_7.png',
+        'magic8ball_8.png',
+        'magic8ball_9.png',
       ];
 
-      response = responses[Math.floor(Math.random() * responses.length)];
+
+      response = imageResponses[Math.floor(Math.random() * imageResponses.length)];
       document.getElementById('answersDiv').innerHTML = response;
+
+   
 }
