@@ -1,4 +1,12 @@
-.button {
+body {
+    background-color: lightblue;
+  }
+  
+button {
     background-color:#0a0a23;
     color: #fff;
+}
+
+.questionBox {
+  text-align: center;
 }

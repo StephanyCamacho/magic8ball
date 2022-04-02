@@ -10,6 +10,17 @@ let answers = () => {
         'magic8ball_7.png',
         'magic8ball_8.png',
         'magic8ball_9.png',
+        'magic8ball_10.png',
+        'magic8ball_11.png',
+        'magic8ball_12.png',
+        'magic8ball_13.png',
+        'magic8ball_14.png',
+        'magic8ball_15.png',
+        'magic8ball_16.png',
+        'magic8ball_17.png',
+        'magic8ball_18.png',
+        'magic8ball_19.png',
+        'magic8ball_20.png',
       ];
 
     // let imageResponses = [];
